@@ -81,7 +81,48 @@ body{
 .divider{
   border: 3px solid rgb(50, 50, 50);
 }
+h1{
+  font-size: 40px !important;
+  font-weight: bold !important;
+  color: white !important;
+}
+p{
+  font-size: 20px;
+}
+.gif{
+  position: relative;
+  bottom: 300px;
+  z-index: -1;
+}
+.downloadstrag{
+  position: relative;
+  width: 60px;
+  /* height: 100px; */
+  /* bottom: 100px; */
+}
+.sook{
+  position: relative;
+  background-color: black;
+  left: 200px;
+  border: 1px solid white;
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+  bottom: 100px;
 
-/* @media (max-width:425px){
-  
-} */
+}
+.door{
+  width: 70px;
+}
+
+@media (max-width:425px){
+  body{
+    overflow-x: hidden;
+  }
+  .wick{
+    font-size: 10px;
+  }
+}
